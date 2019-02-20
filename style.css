@@ -75,7 +75,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 200px;
+  height: 100vh;
   border: solid 1px grey;
   filter: drop-shadow(3px 2px 2px #484848);
   margin-top:1em;
@@ -91,6 +91,10 @@ body {
 .description {
   background-color: rgba(0, 0, 0, 0.5);
   filter: drop-shadow(3px 2px 2px #484848);
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
   
   margin: 0 auto;
   width: 50%;
